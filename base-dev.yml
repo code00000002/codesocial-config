@@ -5,13 +5,11 @@ spring:
     name: codesocial-base #指定服务名
   rabbitmq:
     host: 192.168.80.129
-  sms:
-    ip: 127.0.0.1
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/codesocial_base?characterEncoding=utf-8
+    url: jdbc:mysql://192.168.80.129:3306/codesocial_base?characterEncoding=utf-8
     username: root
-    password: root
+    password: 123456
   jpa:
     database: MySQL
     show-sql: true
@@ -21,4 +19,5 @@ eureka:
       defaultZone: http://localhost:6868/eureka
   instance:
     prefer-ip-address: true
+ abc: 192.168.80.129
  
