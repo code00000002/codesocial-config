@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: codesocial-spit #指定服务名
+  rabbitmq:
+    host: 192.168.80.129
   data:
     mongodb:
       host: 192.168.80.129
