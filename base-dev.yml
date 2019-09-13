@@ -13,6 +13,8 @@ spring:
   jpa:
     database: MySQL
     show-sql: true
+  sms:
+  ip: 127.0.0.1
 eureka:
   client:
     service-url:
